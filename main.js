@@ -34,9 +34,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /*!*************************!*\
   !*** ./src/js/about.js ***!
   \*************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\n\n//# sourceURL=webpack://restaurant-odin/./src/js/about.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   aboutpage: () => (/* binding */ aboutpage)\n/* harmony export */ });\n/* harmony import */ var _img_location_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../img/location.png */ \"./src/img/location.png\");\n\n\nfunction aboutpage(){\n    const container = document.getElementById('container');\n    const newDiv1 = document.createElement('div');\n    const newDiv2 = document.createElement('div');\n    const newDiv3 = document.createElement('div');\n   \n    container.innerHTML = '';\n    container.classList.remove('flex-row', 'flex-wrap');\n    container.classList.add('flex-column');\n    newDiv1.classList.add('d-flex', 'justify-content-center', 'text-center');\n    container.appendChild(newDiv1);\n    newDiv2.classList.add('p-2', 'border-bottom');\n    newDiv2.innerHTML = '<p>Open Thu - Sun<p><p>5:00 pm - 00:00 am<p>';\n    newDiv1.appendChild(newDiv2);\n\n    newDiv3.classList.add('p-2', 'd-flex','flex-column', 'justify-content-center','align-items-center');\n    newDiv3.innerHTML = `<p>Our Location</p><img id='img-location' src='${_img_location_png__WEBPACK_IMPORTED_MODULE_0__}'/>`;\n    container.appendChild(newDiv3);\n        \n    const imgs = document.querySelectorAll('img');\n    imgs.forEach(img => img.addEventListener('click', function(){}));\n    }\n    \n\n\n//# sourceURL=webpack://restaurant-odin/./src/js/about.js?");
 
 /***/ }),
 
@@ -44,9 +45,10 @@ eval("\n\n//# sourceURL=webpack://restaurant-odin/./src/js/about.js?");
 /*!************************!*\
   !*** ./src/js/home.js ***!
   \************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\n\n//# sourceURL=webpack://restaurant-odin/./src/js/home.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   homepage: () => (/* binding */ homepage)\n/* harmony export */ });\n/* harmony import */ var _img_selfservice_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../img/selfservice.jpg */ \"./src/img/selfservice.jpg\");\n/* harmony import */ var _img_delivery_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/delivery.jpg */ \"./src/img/delivery.jpg\");\n\n\n\nfunction homepage(){\nconst container = document.getElementById('container');\nconst newDiv1 = document.createElement('div');\nconst newDiv2 = document.createElement('div');\nconst newDiv3 = document.createElement('div');\nconst newDiv4 = document.createElement('div');\n\n\n\ncontainer.innerHTML = '';\ncontainer.classList.remove('flex-row', 'flex-wrap');\ncontainer.classList.add('flex-column');\nnewDiv1.classList.add('d-flex', 'justify-content-center', 'text-center');\ncontainer.appendChild(newDiv1);\nnewDiv2.classList.add('p-2', 'border-bottom');\nnewDiv2.innerHTML = '<p>Welcome to Restaurant<p> <p>We offer two types of services<p>';\nnewDiv1.appendChild(newDiv2);\n\nnewDiv3.classList.add('border-bottom', 'p-2', 'd-flex','flex-column', 'justify-content-center','align-items-center');\nnewDiv3.innerHTML = `<p>Self-Service</p><img src='${_img_selfservice_jpg__WEBPACK_IMPORTED_MODULE_0__}'/><p>You came to us and eat as much as you like for a fixed price</p>`;\ncontainer.appendChild(newDiv3);\nnewDiv4.classList.add('border-bottom', 'p-2', 'd-flex','flex-column', 'justify-content-center','align-items-center');\nnewDiv4.innerHTML = `<p>Deliveryy</p><img src='${_img_delivery_jpg__WEBPACK_IMPORTED_MODULE_1__}'/><p>We go to you with our super hot boxed dishes</p>`;\ncontainer.appendChild(newDiv4);\n\nconst imgs = document.querySelectorAll('img');\nimgs.forEach(img => img.addEventListener('click', function(){}));\n}\n\n\n\n//# sourceURL=webpack://restaurant-odin/./src/js/home.js?");
 
 /***/ }),
 
@@ -57,7 +59,7 @@ eval("\n\n//# sourceURL=webpack://restaurant-odin/./src/js/home.js?");
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.js */ \"./src/js/home.js\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_home_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.js */ \"./src/js/menu.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_menu_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about.js */ \"./src/js/about.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_about_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../scss/index.scss */ \"./src/scss/index.scss\");\n/* harmony import */ var _node_modules_bootstrap_dist_js_bootstrap_bundle_min__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../node_modules/bootstrap/dist/js/bootstrap.bundle.min */ \"./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js\");\n/* harmony import */ var _node_modules_bootstrap_dist_js_bootstrap_bundle_min__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_bootstrap_dist_js_bootstrap_bundle_min__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\nconst container = document.getElementById('container');\nconst newElement = document.createElement('p');\nnewElement.textContent = 'nat tem um rabinho seco';\ncontainer.appendChild(newElement);\n\n//# sourceURL=webpack://restaurant-odin/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.js */ \"./src/js/home.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.js */ \"./src/js/menu.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about.js */ \"./src/js/about.js\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../scss/index.scss */ \"./src/scss/index.scss\");\n/* harmony import */ var _node_modules_bootstrap_dist_js_bootstrap_bundle_min__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../node_modules/bootstrap/dist/js/bootstrap.bundle.min */ \"./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js\");\n/* harmony import */ var _node_modules_bootstrap_dist_js_bootstrap_bundle_min__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_bootstrap_dist_js_bootstrap_bundle_min__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\n\n\n\n(function indexpage(){\n(0,_home_js__WEBPACK_IMPORTED_MODULE_0__.homepage)();\nconst home = document.getElementById('home');\nconst menu = document.getElementById('menu');\nconst about = document.getElementById('about');\n\nhome.addEventListener('click', _home_js__WEBPACK_IMPORTED_MODULE_0__.homepage);\nmenu.addEventListener('click', _menu_js__WEBPACK_IMPORTED_MODULE_1__.menupage);\nabout.addEventListener('click', _about_js__WEBPACK_IMPORTED_MODULE_2__.aboutpage);\n})()\n\n\n\n//# sourceURL=webpack://restaurant-odin/./src/js/index.js?");
 
 /***/ }),
 
@@ -65,9 +67,54 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
 /*!************************!*\
   !*** ./src/js/menu.js ***!
   \************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\n\n//# sourceURL=webpack://restaurant-odin/./src/js/menu.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   menupage: () => (/* binding */ menupage)\n/* harmony export */ });\n/* harmony import */ var _img_food_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../img/food.png */ \"./src/img/food.png\");\n\n\nfunction menupage(){\nconst container = document.getElementById('container');\nconst newDiv1 = document.createElement('div');\nconst newDiv2 = document.createElement('div');\nconst newDiv3 = document.createElement('div');\nconst newDiv4 = document.createElement('div');\nconst newDiv5 = document.createElement('div');\nconst newDiv6 = document.createElement('div');\n\ncontainer.innerHTML = '';\ncontainer.classList.remove('flex-column');\ncontainer.classList.add('flex-row', 'flex-wrap');\n\nnewDiv1.classList.add('border-bottom', 'p-2','align-items-center', 'p-5');\nnewDiv1.innerHTML = `<img src='${_img_food_png__WEBPACK_IMPORTED_MODULE_0__}'/><p>The all in one burguer</p>`;\ncontainer.appendChild(newDiv1);\n\nnewDiv2.classList.add('border-bottom', 'p-2','align-items-center', 'p-5');\nnewDiv2.innerHTML = `<img src='${_img_food_png__WEBPACK_IMPORTED_MODULE_0__}'/><p>The all in one burguer</p>`;\ncontainer.appendChild(newDiv2);\n\nnewDiv3.classList.add('border-bottom', 'p-2','align-items-center', 'p-5');\nnewDiv3.innerHTML = `<img src='${_img_food_png__WEBPACK_IMPORTED_MODULE_0__}'/><p>The all in one burguer</p>`;\ncontainer.appendChild(newDiv3);\n\nnewDiv4.classList.add('border-bottom', 'p-2','align-items-center', 'p-5');\nnewDiv4.innerHTML = `<img src='${_img_food_png__WEBPACK_IMPORTED_MODULE_0__}'/><p>The all in one burguer</p>`;\ncontainer.appendChild(newDiv4);\n\nnewDiv5.classList.add('border-bottom', 'p-2','align-items-center', 'p-5');\nnewDiv5.innerHTML = `<img src='${_img_food_png__WEBPACK_IMPORTED_MODULE_0__}'/><p>The all in one burguer</p>`;\ncontainer.appendChild(newDiv5);\n\nnewDiv6.classList.add('border-bottom', 'p-2','align-items-center', 'p-5');\nnewDiv6.innerHTML = `<img src='${_img_food_png__WEBPACK_IMPORTED_MODULE_0__}'/><p>The all in one burguer</p>`;\ncontainer.appendChild(newDiv6);\n}\n\n\n\n//# sourceURL=webpack://restaurant-odin/./src/js/menu.js?");
+
+/***/ }),
+
+/***/ "./src/img/delivery.jpg":
+/*!******************************!*\
+  !*** ./src/img/delivery.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"f18e21fc274a899377ae.jpg\";\n\n//# sourceURL=webpack://restaurant-odin/./src/img/delivery.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/food.png":
+/*!**************************!*\
+  !*** ./src/img/food.png ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"78c293b9a4add804f7a1.png\";\n\n//# sourceURL=webpack://restaurant-odin/./src/img/food.png?");
+
+/***/ }),
+
+/***/ "./src/img/location.png":
+/*!******************************!*\
+  !*** ./src/img/location.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"67f0065e2700a9f4a95a.png\";\n\n//# sourceURL=webpack://restaurant-odin/./src/img/location.png?");
+
+/***/ }),
+
+/***/ "./src/img/selfservice.jpg":
+/*!*********************************!*\
+  !*** ./src/img/selfservice.jpg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"72662190f5fae3159406.jpg\";\n\n//# sourceURL=webpack://restaurant-odin/./src/img/selfservice.jpg?");
 
 /***/ })
 
@@ -122,6 +169,18 @@ eval("\n\n//# sourceURL=webpack://restaurant-odin/./src/js/menu.js?");
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -136,6 +195,29 @@ eval("\n\n//# sourceURL=webpack://restaurant-odin/./src/js/menu.js?");
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
